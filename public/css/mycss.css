@@ -1,0 +1,28 @@
+.rating-css div {
+    color:rgb(253 224 71);;
+    font-size: 30px;
+
+    font-weight: 800;
+    text-align: center;
+
+    padding: -20px 0;
+}
+
+.rating-css input {
+    display: none;
+}
+
+.rating-css input+label {
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+    color: rgb(229 231 235);
+}
+
+.rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
